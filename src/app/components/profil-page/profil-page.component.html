@@ -10,8 +10,8 @@
   <div class="fekra12"></div>
 </div>
 <div class="frame5">
-  <div class="frame1"><div class="posts">Posts</div></div>
-  <div class="frame2"><div class="projects">Projects</div></div>
+  <div class="frame1"><button class="posts" (click)="loadComponent('ProjetComponent')">Posts</button></div>
+  <div class="frame2"><button class="projects" (click)="loadComponent('PostComponent')">Projects</button></div>
   <div class="frame3"><div class="friends">Friends</div></div>
   <div class="frame4"><div class="achievements">Achievements</div></div>
 </div>
@@ -55,26 +55,14 @@
   <div class="frame8"><img src="assets/frame-icon3.svg" alt="" class="icon5" /></div>
   <div class="frame9"><img src="assets/frame-icon4.svg" alt="" class="icon6" /></div>
 </div>
-<div class="line8"></div>
-<div class="rectangle4"></div>
-<div class="ellipse2"><img src="assets/ellipse-2-icon.svg" alt="" class="icon7" /></div>
-<div class="ellipse3"><img src="assets/ellipse-3-icon.svg" alt="" class="icon8" /></div>
-<div class="ellipse4"><img src="assets/ellipse-4-icon.svg" alt="" class="icon9" /></div>
-<div class="postName">Post Name</div>
-<div class="rectangle5"></div>
-<div class="line1"></div>
-<div class="line2"></div>
-<div class="ellipse11"><img src="assets/ellipse-11-icon.svg" alt="" class="icon10" /></div>
-<div class="i">i</div>
-<div class="ellipse12"><img src="assets/ellipse-12-icon.svg" alt="" class="icon11" /></div>
-<div class="line7"></div>
-<div class="line9"></div>
-<div class="_5Views">5 views</div>
-<div class="frame72">
-  <div class="frame17"><div class="react">React</div></div>
-  <div class="frame22"><div class="comment">Comment</div></div>
-  <div class="frame42"><div class="share">Share</div></div>
-</div>
+
+
+
+<div #componentContainer></div>
+
+
+
+
 <div class="footer">
   <div class="mobileApp">Mobile app</div>
   <div class="featuresLiveShareVideoRecord">

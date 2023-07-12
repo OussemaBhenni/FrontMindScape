@@ -36,14 +36,7 @@ svg {
   overflow: visible;
 }
 
-:host {
-  position: relative;
-  width: 1480px;
-  height: 2640px;
-  align-items: flex-start;
-  background-color: #fff;
-  overflow: hidden;
-}
+
 .rectangle3 {
   position: absolute;
   top: 17px;
@@ -170,11 +163,10 @@ svg {
   place-content: center;
   align-items: center;
   padding: 7.3763px;
-  background-color: white;
-  color: black;
+  background-color: #b517e3;
 }
 .posts {
-
+  color: #fffefe;
   font-size: 28.0301px;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
@@ -192,7 +184,7 @@ svg {
   background-color: #fff;
 }
 .projects {
-
+  color: #000;
   font-size: 25.8172px;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
@@ -210,7 +202,7 @@ svg {
   background-color: #fff;
 }
 .friends {
-
+  color: #000;
   font-size: 25.8172px;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
@@ -228,7 +220,7 @@ svg {
   background-color: #fff;
 }
 .achievements {
-
+  color: #000;
   font-size: 25.8172px;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
@@ -1088,15 +1080,4 @@ svg {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.active-frame
-{
-  background-color: #b517e3;
-  color: white !important;
-}
-.active-frame button
-{
-  background-color: #b517e3;
-  color: white !important;
 }

@@ -7,6 +7,8 @@ import { Button3Component } from './components/profil-page/button3/button3.compo
 import { Button4Component } from './components/profil-page/button4/button4.component';
 import { ButtonComponent } from './components/profil-page/button/button.component';
 import { ProfilPageComponent } from './components/profil-page/profil-page.component';
+import { PostComponent } from './components/profil-page/post/post.component';
+import { ProjetComponent } from './components/profil-page/projet/projet.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { ProfilPageComponent } from './components/profil-page/profil-page.compon
     Button3Component,
     Button4Component,
     ProfilPageComponent,
+    PostComponent,
+    ProjetComponent,
   ],
   imports: [BrowserModule],
   providers: [],
