@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+c-root {
+  font-family: sans-serif;
+  background-color: #1e1e1e;
+  overflow-y: auto;
+  align-items: center;
+  justify-content: center;
+}
