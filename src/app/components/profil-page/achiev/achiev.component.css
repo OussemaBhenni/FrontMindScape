@@ -1,0 +1,505 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+.rectangle13 {
+  position: absolute;
+  left: 251px;
+  top: 1448px;
+  width: 930px;
+  height: 691px;
+  border-radius: 31.5536px;
+  background-color: #fff;
+}
+.frame17 {
+  position: absolute;
+  left: 279px;
+  top: 1489px;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 13px;
+}
+.achiv {
+  position: relative;
+  width: 285px;
+  height: 191.9588px;
+}
+.rectangle14 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 285px;
+  height: 191.9588px;
+  outline: solid 1px #b517e3;
+  outline-offset: -1px;
+  border-radius: 14.6907px;
+  background-color: #fff;
+}
+.group5 {
+  position: absolute;
+  left: 28.5223%;
+  right: 30.2406%;
+  top: 10.2039%;
+  bottom: 28.5716%;
+  width: 117.5258px;
+  height: 117.5258px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name {
+  color: #000;
+  font-size: 25.2849px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36.7698%;
+  right: 35.8618%;
+  top: 78.0612%;
+  bottom: 5.7895%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.achiv2 {
+  position: relative;
+  width: 285px;
+  height: 191.9588px;
+}
+.rectangle142 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 285px;
+  height: 191.9588px;
+  outline: solid 1px #b517e3;
+  outline-offset: -1px;
+  border-radius: 14.6907px;
+  background-color: #fff;
+}
+.group52 {
+  position: absolute;
+  left: 28.5223%;
+  right: 30.2406%;
+  top: 10.2039%;
+  bottom: 28.5716%;
+  width: 117.5258px;
+  height: 117.5258px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name2 {
+  color: #000;
+  font-size: 25.2849px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36.7698%;
+  right: 35.8618%;
+  top: 78.0612%;
+  bottom: 5.7895%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.achiv3 {
+  position: relative;
+  width: 285px;
+  height: 191.9588px;
+}
+.rectangle143 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 285px;
+  height: 191.9588px;
+  outline: solid 1px #b517e3;
+  outline-offset: -1px;
+  border-radius: 14.6907px;
+  background-color: #fff;
+}
+.group53 {
+  position: absolute;
+  left: 28.5223%;
+  right: 30.2406%;
+  top: 10.2039%;
+  bottom: 28.5716%;
+  width: 117.5258px;
+  height: 117.5258px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name3 {
+  color: #000;
+  font-size: 25.2849px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36.7698%;
+  right: 35.8618%;
+  top: 78.0612%;
+  bottom: 5.7895%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame172 {
+  position: absolute;
+  left: 276px;
+  top: 1708px;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 13px;
+}
+.achiv4 {
+  position: relative;
+  width: 285px;
+  height: 191.9588px;
+}
+.rectangle144 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 285px;
+  height: 191.9588px;
+  outline: solid 1px #b517e3;
+  outline-offset: -1px;
+  border-radius: 14.6907px;
+  background-color: #fff;
+}
+.group54 {
+  position: absolute;
+  left: 28.5223%;
+  right: 30.2406%;
+  top: 10.2039%;
+  bottom: 28.5716%;
+  width: 117.5258px;
+  height: 117.5258px;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name4 {
+  color: #000;
+  font-size: 25.2849px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36.7698%;
+  right: 35.8618%;
+  top: 78.0612%;
+  bottom: 5.7895%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.achiv5 {
+  position: relative;
+  width: 285px;
+  height: 191.9588px;
+}
+.rectangle145 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 285px;
+  height: 191.9588px;
+  outline: solid 1px #b517e3;
+  outline-offset: -1px;
+  border-radius: 14.6907px;
+  background-color: #fff;
+}
+.group55 {
+  position: absolute;
+  left: 28.5223%;
+  right: 30.2406%;
+  top: 10.2039%;
+  bottom: 28.5716%;
+  width: 117.5258px;
+  height: 117.5258px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name5 {
+  color: #000;
+  font-size: 25.2849px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36.7698%;
+  right: 35.8618%;
+  top: 78.0612%;
+  bottom: 5.7895%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.achiv6 {
+  position: relative;
+  width: 285px;
+  height: 191.9588px;
+}
+.rectangle146 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 285px;
+  height: 191.9588px;
+  outline: solid 1px #b517e3;
+  outline-offset: -1px;
+  border-radius: 14.6907px;
+  background-color: #fff;
+}
+.group56 {
+  position: absolute;
+  left: 28.5223%;
+  right: 30.2406%;
+  top: 10.2039%;
+  bottom: 28.5716%;
+  width: 117.5258px;
+  height: 117.5258px;
+  overflow: visible;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name6 {
+  color: #000;
+  font-size: 25.2849px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36.7698%;
+  right: 35.8618%;
+  top: 78.0612%;
+  bottom: 5.7895%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame173 {
+  position: absolute;
+  left: 274px;
+  top: 1927px;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 13px;
+}
+.achiv7 {
+  position: relative;
+  width: 285px;
+  height: 191.9588px;
+}
+.rectangle147 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 285px;
+  height: 191.9588px;
+  outline: solid 1px #b517e3;
+  outline-offset: -1px;
+  border-radius: 14.6907px;
+  background-color: #fff;
+}
+.group57 {
+  position: absolute;
+  left: 28.5223%;
+  right: 30.2406%;
+  top: 10.2039%;
+  bottom: 28.5716%;
+  width: 117.5258px;
+  height: 117.5258px;
+  overflow: visible;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name7 {
+  color: #000;
+  font-size: 25.2849px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36.7698%;
+  right: 35.8618%;
+  top: 78.0612%;
+  bottom: 5.7895%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.achiv8 {
+  position: relative;
+  width: 285px;
+  height: 191.9588px;
+}
+.rectangle148 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 285px;
+  height: 191.9588px;
+  outline: solid 1px #b517e3;
+  outline-offset: -1px;
+  border-radius: 14.6907px;
+  background-color: #fff;
+}
+.group58 {
+  position: absolute;
+  left: 28.5223%;
+  right: 30.2406%;
+  top: 10.2039%;
+  bottom: 28.5716%;
+  width: 117.5258px;
+  height: 117.5258px;
+  overflow: visible;
+}
+.icon8 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name8 {
+  color: #000;
+  font-size: 25.2849px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36.7698%;
+  right: 35.8618%;
+  top: 78.0612%;
+  bottom: 5.7895%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.achiv9 {
+  position: relative;
+  width: 285px;
+  height: 191.9588px;
+}
+.rectangle149 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 285px;
+  height: 191.9588px;
+  outline: solid 1px #b517e3;
+  outline-offset: -1px;
+  border-radius: 14.6907px;
+  background-color: #fff;
+}
+.group59 {
+  position: absolute;
+  left: 28.5223%;
+  right: 30.2406%;
+  top: 10.2039%;
+  bottom: 28.5716%;
+  width: 117.5258px;
+  height: 117.5258px;
+  overflow: visible;
+}
+.icon9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name9 {
+  color: #000;
+  font-size: 25.2849px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36.7698%;
+  right: 35.8618%;
+  top: 78.0612%;
+  bottom: 5.7895%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

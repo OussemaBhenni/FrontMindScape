@@ -9,6 +9,8 @@ import { ButtonComponent } from './components/profil-page/button/button.componen
 import { ProfilPageComponent } from './components/profil-page/profil-page.component';
 import { PostComponent } from './components/profil-page/post/post.component';
 import { ProjetComponent } from './components/profil-page/projet/projet.component';
+import { FriendComponent } from './components/profil-page/friend/friend.component';
+import { AchievComponent } from './components/profil-page/achiev/achiev.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { ProjetComponent } from './components/profil-page/projet/projet.componen
     ProfilPageComponent,
     PostComponent,
     ProjetComponent,
+    FriendComponent,
+    AchievComponent
   ],
   imports: [BrowserModule],
   providers: [],
